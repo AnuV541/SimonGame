@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Inter:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="inner">
+    <div class="rules"> 
+      <form>
+        <label>Name: </label>
+        <input type="text" id="name"></br>
+        <label>Email Id: </label>
+        <input type="text" id="mail"></br>
+        <button type="button" onclick="callAPI(document.getElementById('name').value,document.getElementById('mail').value)">Let's Play</button>
+      </form>
+      Rules To Play:
+      <ol>
+      <li> The game is called simon.</li>
+      <li>It is a game of lights and sounds in which players must repeat random sequences of lights by pressing the colored pads in the correct order.</li>
+      <li>First register and then press any key to start the game.</li></ol> 
+    </div>
+    <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

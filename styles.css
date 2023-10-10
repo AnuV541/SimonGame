@@ -1,0 +1,98 @@
+body {
+  text-align: center;
+  background-color: #030303;
+  margin: 0px;
+}
+
+button{
+  position: relative;
+  margin:10px;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  display: block;
+  height: 40px;
+  width: 110px;
+  color: rgb(0, 0, 0);
+  border-radius: 15%;
+  font-family: 'Black Ops One';
+  background-color: #b3b3ae;
+}
+
+.inner{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr  ; 
+  gap: 0px
+  grid-border: 0px;
+  flex-shrink: 0;
+}
+
+.li{
+  display: flex;
+  flex-shrink: 0;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #b3b3ae;
+}
+
+.rules{
+  font-family: 'Black Ops One';
+  color:#b3b3ae;
+  text-align: start;
+  font-size: 1.5rem;
+  border: 0px;
+  padding: 0px;
+  margin-left: 10%;
+  flex-shrink: 0;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding: 0px;
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+  grid-template-rows: 1fr 1fr;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid rgb(203, 202, 202);
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
