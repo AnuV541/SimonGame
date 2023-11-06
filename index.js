@@ -52,7 +52,7 @@ function checkAnswer(currentLevel){
     }
     else{
         console.log("wrong");
-        var wrongSound=new Audio("sounds/wrong.mp3");
+        var wrongSound=new Audio("Sounds/wrong.mp3");
         wrongSound.play();
         $("body").addClass("game-over");
         setTimeout(function(){
