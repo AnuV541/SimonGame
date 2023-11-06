@@ -76,7 +76,7 @@ function nextSequence(){
 
 function playSound(name){
     var sound1=new Audio("sounds/"+name+".mp3");
-    sound1.play()
+    sound1.play();
 }
 function animatePress(currentColour){
     $("#"+currentColour).addClass("pressed");
